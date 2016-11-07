@@ -4,3 +4,4 @@ RUN dnf install -y git gcc-gfortran gcc-c++ ragel autogen openssl-static make wa
     SDL2-devel blas-static
 RUN dnf install -y libXt-devel qt5-qtwebkit-devel qt5-qttools-devel
 RUN dnf install -y valgrind
+RUN dnf install -y lapack-devel
